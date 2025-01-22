@@ -11,19 +11,19 @@
 }
 
 @media screen and (min-width: 1166px){
-    .container {
+    .container >.header-container {
             max-width: 1166px;
         }
 
     .header{
         padding-top: 24px;
-        padding-bottom: 32px;
     }
 
     .header-container{
         display: flex;
         align-items: center;
         gap: 100px;
+        background-color: transparent;
         /* padding-right: 10px;
         padding-left: 10px; */
         }

@@ -29,8 +29,16 @@ img {
     height: auto;
 }
 
+
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: system-ui,
+        'Segoe UI',
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif,
+        'Apple Color Emoji',
+        'Segoe UI Emoji';
     background-color: #FAFAFA;
 }
 
@@ -68,12 +76,13 @@ body {
 
 
 .header {
-    /* height: 100px;
-    width: 100%; */
+    
+    padding-bottom: 32px;
 }
 
 .header-container{
     background-color: rgb(227, 150, 24);
+    background-repeat: no-repeat;
     padding: 50px 0;
     border-radius: 15px;
     /* margin: 0 auto; */
